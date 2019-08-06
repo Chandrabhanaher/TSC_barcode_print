@@ -1,4 +1,5 @@
-# TSC_barcode_print
+# TSC Blutooth Printer
+
 TSC Barcode &amp; QR Code Print
 
 #Android Permissions 
