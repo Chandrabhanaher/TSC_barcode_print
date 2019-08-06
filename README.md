@@ -10,8 +10,12 @@ TSC Barcode &amp; QR Code Print
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 ```
 #Using Extranal TSC Android SDK
-#class file
 
+
+#Android SDK Link
+```
+https://www.tscprinters.com/EN/support/Support_Download/ML240%20Series
+```
 # Code
 ```
         TSCActivity TscDll = new TSCActivity()
