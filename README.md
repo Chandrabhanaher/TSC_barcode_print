@@ -1,20 +1,20 @@
 # TSC_barcode_print
 TSC Barcode &amp; QR Code Print
 
-
-``
 #Android Permissions 
-# Manifest.xml
-``  <uses-permission android:name="android.permission.INTERNET" />
+```
+   <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
-    ``<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+```
+#Using Extranal TSC Android SDK
+#class file
 
-``Using Extranal TSC Android SDK
-``Call the  this class file
-``TSCActivity TscDll = new TSCActivity();
 # Code
-``      TscDll.openport("00:19:0E:A3:79:DD");
+```
+        TSCActivity TscDll = new TSCActivity()
+        TscDll.openport("00:19:0E:A3:79:DD");
         TscDll.downloadpcx("UL.PCX");
         TscDll.downloadbmp("Triangle.bmp");
         TscDll.downloadttf("ARIAL.TTF");
@@ -36,4 +36,5 @@ TSC Barcode &amp; QR Code Print
         System.out.println("Status : "+status);
         TscDll.printlabel(1, 1);
         TscDll.sendfile("zpl.txt");
- ``     TscDll.closeport();
+      TscDll.closeport();
+``` 
